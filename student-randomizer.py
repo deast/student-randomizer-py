@@ -1,3 +1,4 @@
+
 students = [
     'Димова Александра Сергеевна',
     'Зубакин Александр Сергеевич',
@@ -11,7 +12,7 @@ students = [
 ]
 
 questons = []
-for q in open('questons.txt').readlines():
+for q in open('questons.txt', encoding="utf8").readlines():
     questons.append(q)
 
 import random
