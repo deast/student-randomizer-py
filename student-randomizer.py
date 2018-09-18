@@ -15,4 +15,4 @@ for q in open('questons.txt').readlines():
     questons.append(q)
 
 import random
-print(random.choice(students) + str(':'), random.choice(questons))
+print(random.choice(students) + str(':'), random.choice(questons) + "!")
