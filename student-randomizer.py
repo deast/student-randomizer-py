@@ -13,7 +13,8 @@ students = [
 
 questons = []
 for q in open('questons.txt', encoding="utf8").readlines():
-    questons.append(q)
+    questions.append(q)
 
+print('Hello, username!')
 import random
 print(random.choice(students) + str(':'), random.choice(questons) + "!")
